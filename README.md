@@ -1,4 +1,4 @@
-# Energy System   Modelling of Buildings
+# Energy System Optimization of Buildings
 This is an academic project checking the feasibility of integrating Renewable Energy Sources to commercial buildings using open source Python packages such as [RAMP](https://rampdemand.readthedocs.io/en/latest/intro.html), [pvlib-Python](https://pvlib-python.readthedocs.io/en/stable/index.html), and [OEMOF](https://oemof.org/).
 # Table of Contents
 1. [Introduction](#introduction)
