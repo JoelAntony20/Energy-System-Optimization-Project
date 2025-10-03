@@ -33,7 +33,7 @@ The heat demand profile is created using [demandlib](https://github.com/oemof/de
 The feed-in profiles for the project include PV output and heat power output from the solar thermal collectors.
 
 ## PV Output
-+ The first step is to calculate the irradiance present in the region under consideration, for the project pvlib library using the PVGIS module[^2] was utilized for this purpose.
++ The first step is to calculate the irradiance present in the region under consideration, for the project PVGIS module inside the pvlib library[^2] was utilized for this purpose.
 [^2]: Holmgren, W., Hansen, C., and Mikofski, M. “pvlib python: a python package for modeling solar energy systems.” Journal of Open Source Software, 3(29), 884, (2018). DOI: 10.21105/joss.00884.
 + The next step is to retrieve the irradiation, temperature and wind speed data from the PVGIS module[^2].
 + The final step is to pre-process the PV data retrieved to use only the necessary data and name them properly for excel file, so the data can be correctly read by pvlib-Python during the PV output calculation.
